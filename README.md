@@ -1,2 +1,2 @@
-# AdaptiveSamplingDNAdataStorage
-Adaptive sampling for DNA data storage using Readfish
+# AdaptiveSamplingONT-DNAdataStorage
+Adaptive sampling for ONT DNA sequencing for data storage using Readfish
