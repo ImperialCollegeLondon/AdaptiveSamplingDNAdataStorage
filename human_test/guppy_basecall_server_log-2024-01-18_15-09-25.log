@@ -1,0 +1,4 @@
+2024-01-18 15:09:25.387775 [guppy/error] Missing required parameter basecalling.model_file --model_file
+Missing required parameter ipc_options.port --port
+Missing required parameter program_options.save_path --log_path
+2024-01-18 15:09:25.387933 [guppy/message] Try 'guppy_basecall_server --help' for more information.

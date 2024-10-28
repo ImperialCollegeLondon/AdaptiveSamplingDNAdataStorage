@@ -1,0 +1,30 @@
+2024-01-23 14:40:50.888460 [guppy/message] ONT Guppy basecall server software version 6.5.7+ca6d6af, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            /home/iclnanopore/adaptive/human_test/guppy_log/
+chunk size:          2000
+chunks per runner:   160
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0
+kernel path:         
+runners per device:  8
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/bin
+
+
+2024-01-23 14:40:50.888700 [guppy/info] crashpad_handler not supported on this platform.
+2024-01-23 14:40:50.934981 [guppy/info] CUDA device 0 (compute 8.9) initialised, memory limit 8325824512B (6826754048B free)
+2024-01-23 14:40:50.940781 [guppy/info] lamp_arrangements arrangement folder not found: /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/data/read_splitting/lamp_arrangements
+2024-01-23 14:40:50.948284 [guppy/info] lamp_arrangements arrangement folder not found: /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/data/barcoding/lamp_arrangements
+2024-01-23 14:40:51.016349 [guppy/info] Listening on port ipc://5555.
+2024-01-23 14:40:51.026202 [guppy/message] 
+Config loaded:
+config file:               /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/data/dna_r9.4.1_450bps_fast.cfg
+model file:                /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/data/template_r9.4.1_450bps_fast.jsn
+model version id           2021-05-17_dna_r9.4.1_minion_96_29d8704b
+adapter scaler model file: None
+2024-01-23 14:40:51.027991 [guppy/message] Starting server on port: ipc:///home/iclnanopore/5555
+2024-01-23 14:57:05.485658 [guppy/message] SIGINT received. Terminating server.
+2024-01-23 14:57:05.485749 [guppy/message] The basecall server has shut down successfully.

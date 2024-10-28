@@ -1,0 +1,28 @@
+2024-01-18 15:19:12.142306 [guppy/message] ONT Guppy basecall server software version 6.5.7+ca6d6af, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            ./guppy_log/
+chunk size:          2000
+chunks per runner:   160
+max queued reads:    2000
+num basecallers:     1
+num socket threads:  2
+max returned events: 256000
+cpu mode:             ON
+threads per caller:  4
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/bin
+
+
+2024-01-18 15:19:12.142401 [guppy/info] crashpad_handler not supported on this platform.
+2024-01-18 15:19:12.153851 [guppy/info] lamp_arrangements arrangement folder not found: /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/data/read_splitting/lamp_arrangements
+2024-01-18 15:19:12.162376 [guppy/info] lamp_arrangements arrangement folder not found: /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/data/barcoding/lamp_arrangements
+2024-01-18 15:19:12.173540 [guppy/info] Listening on port ipc://5555.
+2024-01-18 15:19:12.182861 [guppy/message] 
+Config loaded:
+config file:               /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/data/dna_r9.4.1_450bps_fast.cfg
+model file:                /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/data/template_r9.4.1_450bps_fast.jsn
+model version id           2021-05-17_dna_r9.4.1_minion_96_29d8704b
+adapter scaler model file: None
+2024-01-18 15:19:12.184783 [guppy/message] Starting server on port: ipc:///home/iclnanopore/adaptive/human_test/5555
+2024-01-18 15:19:35.913486 [guppy/message] SIGINT received. Terminating server.
+2024-01-18 15:19:35.913543 [guppy/message] The basecall server has shut down successfully.

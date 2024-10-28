@@ -1,0 +1,2 @@
+2024-01-18 15:12:52.632683 [guppy/error] Missing required parameter basecalling.model_file --model_file
+2024-01-18 15:12:52.632806 [guppy/message] Try 'guppy_basecall_server --help' for more information.

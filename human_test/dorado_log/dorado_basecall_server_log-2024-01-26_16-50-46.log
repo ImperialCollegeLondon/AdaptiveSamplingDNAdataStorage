@@ -1,0 +1,68 @@
+2024-01-26 16:50:46.486303 [ont/info] CUDA device0. NVIDIA GeForce RTX 4070 Laptop GPU (compute 8.9) initialised, memory limit 8325824512B (6826754048B free)
+2024-01-26 16:50:46.487415 [ont/message] ONT Dorado basecall server software version 7.2.13+fba8e8925, client-server API version 16.0.0, minimap2 version 2.24-r1122
+log path:            /home/iclnanopore/adaptive/human_test/dorado_log
+max queued reads:    33000
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /home/iclnanopore/Downloads/ont-dorado-server_7.2.13_linux64/ont-dorado-server/bin
+
+
+2024-01-26 16:50:46.487450 [ont/info] crashpad_handler not supported on this platform.
+2024-01-26 16:50:46.490161 [ont/info] lamp_arrangements arrangement folder not found: /home/iclnanopore/Downloads/ont-dorado-server_7.2.13_linux64/ont-dorado-server/data/read_splitting/lamp_arrangements
+2024-01-26 16:50:46.505452 [ont/info] lamp_arrangements arrangement folder not found: /home/iclnanopore/Downloads/ont-dorado-server_7.2.13_linux64/ont-dorado-server/data/barcoding/lamp_arrangements
+2024-01-26 16:50:46.575714 [ont/info] Listening on port ipc://5555.
+2024-01-26 16:50:46.576901 [ont/message] 
+Config loaded:
+config file:               /home/iclnanopore/Downloads/ont-dorado-server_7.2.13_linux64/ont-dorado-server/data/dna_r9.4.1_450bps_fast.cfg
+model file:                /home/iclnanopore/Downloads/ont-dorado-server_7.2.13_linux64/ont-dorado-server/data/dna_r9.4.1_e8_fast@v3.4
+2024-01-26 16:50:46.579660 [ont/message] Starting server on port: ipc:///home/iclnanopore/5555
+2024-01-26 16:51:08.950601 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 16:51:08.952252 [ont/message] 
+Config loaded:
+config file:               /home/iclnanopore/Downloads/ont-dorado-server_7.2.13_linux64/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_5khz_fast.cfg
+model file:                /home/iclnanopore/Downloads/ont-dorado-server_7.2.13_linux64/ont-dorado-server/data/dna_r10.4.1_e8.2_400bps_fast@v4.2.0
+2024-01-26 16:51:09.451449 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 16:51:09.461622 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 16:51:09.463500 [ont/info] New client connected Client 1 Readfish_connection id: cc697a98-1a3c-4098-90a9-70f8c242cd6e (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 16:51:09.712077 [ont/info] Batch size: 512
+2024-01-26 16:51:13.494996 [ont/info] Client 1 Readfish_connection id: cc697a98-1a3c-4098-90a9-70f8c242cd6e has disconnected.
+2024-01-26 16:53:38.636700 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 16:53:38.637687 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 16:53:38.639532 [ont/info] New client connected Client 2 Readfish_connection id: 114b0aa3-829f-4b30-901b-b4b7340a11ae (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 16:56:36.625965 [ont/info] Client 2 Readfish_connection id: 114b0aa3-829f-4b30-901b-b4b7340a11ae has disconnected.
+2024-01-26 16:56:37.913483 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 16:56:37.913971 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 16:56:37.914620 [ont/info] New client connected Client 3 Readfish_connection id: 1e178335-7832-490d-82db-a5c51cbc1c19 (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 16:56:49.541732 [ont/info] Client 3 Readfish_connection id: 1e178335-7832-490d-82db-a5c51cbc1c19 has disconnected.
+2024-01-26 16:57:34.755496 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 16:57:34.756342 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 16:57:34.756910 [ont/info] New client connected Client 4 Readfish_connection id: 20af0f35-e0e7-47a8-95e0-6668b782fe7e (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 16:58:19.787738 [ont/info] Client 4 Readfish_connection id: 20af0f35-e0e7-47a8-95e0-6668b782fe7e has disconnected.
+2024-01-26 16:58:41.360054 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 16:58:41.360331 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 16:58:41.360873 [ont/info] New client connected Client 5 Readfish_connection id: f80abc6b-0559-4f22-aec3-62b35a9e1edb (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 16:59:06.961863 [ont/info] Client 5 Readfish_connection id: f80abc6b-0559-4f22-aec3-62b35a9e1edb has disconnected.
+2024-01-26 17:07:22.782919 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 17:07:22.783349 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 17:07:22.783877 [ont/info] New client connected Client 6 Readfish_connection id: d56aa008-54eb-47b7-8dd4-4442eb7d1d70 (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 17:07:36.095302 [ont/info] Client 6 Readfish_connection id: d56aa008-54eb-47b7-8dd4-4442eb7d1d70 has disconnected.
+2024-01-26 17:07:54.373523 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 17:07:54.373854 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 17:07:54.374674 [ont/info] New client connected Client 7 Readfish_connection id: e05b7fa5-4f1d-4a58-819a-a9aed7b1748b (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 17:08:55.234767 [ont/info] Client 7 Readfish_connection id: e05b7fa5-4f1d-4a58-819a-a9aed7b1748b has disconnected.
+2024-01-26 17:08:56.363295 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 17:08:56.363819 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 17:08:56.365459 [ont/info] New client connected Client 8 Readfish_connection id: 46e24ead-5943-43a6-9b87-b202a0868dbe (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 17:09:02.998952 [ont/info] Client 8 Readfish_connection id: 46e24ead-5943-43a6-9b87-b202a0868dbe has disconnected.
+2024-01-26 17:13:33.783493 [ont/info] LOAD_CONFIG client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast"]
+2024-01-26 17:13:33.783963 [ont/info] CONNECT client request. ["dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0"]
+2024-01-26 17:13:33.784576 [ont/info] New client connected Client 9 Readfish_connection id: ac6d20d3-40f7-43e4-b9fa-e84104b1d6ba (connection string = 'dna_r10.4.1_e8.2_400bps_5khz_fast:>timeout_interval=15000>client_name=Readfish_connection>barcode_kits=>detect_barcodes=0').
+2024-01-26 17:13:39.860780 [ont/info] Client 9 Readfish_connection id: ac6d20d3-40f7-43e4-b9fa-e84104b1d6ba has disconnected.
+2024-01-26 17:23:39.924727 [ont/info] dna_r10.4.1_e8.2_400bps_5khz_fast has timed out.
+2024-01-26 17:23:39.924815 [ont/info] Unloading config from pipeline: dna_r10.4.1_e8.2_400bps_5khz_fast
+2024-01-26 17:23:39.938806 [ont/info] Removing Pipeline for model: dna_r10.4.1_e8.2_400bps_fast@v4.2.0
+2024-01-26 17:28:50.207091 [ont/message] SIGINT received. Terminating server.
+2024-01-26 17:28:50.365220 [ont/message] The basecall server has shut down successfully.

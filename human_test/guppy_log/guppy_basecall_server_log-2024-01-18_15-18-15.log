@@ -1,0 +1,17 @@
+2024-01-18 15:18:15.197424 [guppy/message] ONT Guppy basecall server software version 6.5.7+ca6d6af, client-server API version 15.0.0, minimap2 version 2.24-r1122
+log path:            ./guppy_log/
+chunk size:          2000
+chunks per runner:   160
+max queued reads:    2000
+num basecallers:     4
+num socket threads:  2
+max returned events: 256000
+gpu device:          cuda:0
+kernel path:         
+runners per device:  8
+Use of this software is permitted solely under the terms of the end user license agreement (EULA).
+By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in /home/iclnanopore/Downloads/ont-guppy_6.5.7_linux64/ont-guppy/bin
+
+
+2024-01-18 15:18:15.197551 [guppy/info] crashpad_handler not supported on this platform.
